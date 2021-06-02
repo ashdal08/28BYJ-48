@@ -1,9 +1,9 @@
 //Put all the pins in an array to make them easy to work with
 int pins[] {
-    2,  //IN1 on the ULN2003 Board, BLUE end of the Blue/Yellow motor coil
-    3,  //IN2 on the ULN2003 Board, PINK end of the Pink/Orange motor coil
-    4,  //IN3 on the ULN2003 Board, YELLOW end of the Blue/Yellow motor coil
-    5   //IN4 on the ULN2003 Board, ORANGE end of the Pink/Orange motor coil
+    8,  //IN1 on the ULN2003 Board, BLUE end of the Blue/Yellow motor coil
+    9,  //IN2 on the ULN2003 Board, PINK end of the Pink/Orange motor coil
+    10,  //IN3 on the ULN2003 Board, YELLOW end of the Blue/Yellow motor coil
+    11   //IN4 on the ULN2003 Board, ORANGE end of the Pink/Orange motor coil
 };
 
 //Define the wave drive sequence.  

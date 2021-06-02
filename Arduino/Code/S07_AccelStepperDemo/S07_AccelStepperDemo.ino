@@ -41,9 +41,9 @@ void setup() {
   //Set the initial speed (read the AccelStepper docs on what "speed" means
   stepper1.setSpeed(200.0);         
   //Tell it how fast to accelerate
-  stepper1.setAcceleration(200.0); 
+  stepper1.setAcceleration(500.0); 
   //Set a maximum speed it should exceed 
-  stepper1.setMaxSpeed(4000.0);      
+  stepper1.setMaxSpeed(600.0);      
   //Tell it to move to the target position
   stepper1.moveTo(targetPosition);   
 
